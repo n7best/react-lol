@@ -70,15 +70,17 @@ class App extends React.Component {
             position: 'relative'
           }}>
             <ToolBar>
-              <i className="fa fa-search" ariaHidden="true"></i>
-              <i className="fa fa-cog" ariaHidden="true"></i>
-              <i className="fa fa-github" ariaHidden="true"></i>
+              <i className="fa fa-search" ></i>
+              <i className="fa fa-cog" ></i>
+              <i className="fa fa-github" ></i>
             </ToolBar>
             <img src="images/logo.png" width="60%"/>
             <h5 style={{color: '#EDE3CF'}}>A React library look like LOL</h5>
             <p style={{color: '#9B9184', fontSize: '12px' }}>Maybe you can use it on the next game project</p>
             <br/>
             <ReactLOL.Button>GET STARTED</ReactLOL.Button>
+            <p />
+            <ReactLOL.Button primary>DOCUMENTATION</ReactLOL.Button>
             <div style={{
               position: 'absolute',
               bottom: 0,
