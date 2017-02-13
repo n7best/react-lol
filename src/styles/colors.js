@@ -10,6 +10,8 @@ const colors = {
     text_lightBlue: '#cdfafa',
 
     //border
+    border_main: '#1E282D',
+
     border_gold_normal: '#785A28',
     border_gold_start: '#C5A461',
     border_gold_end: '#6D5925',

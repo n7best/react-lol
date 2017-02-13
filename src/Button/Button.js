@@ -16,14 +16,14 @@ const StyledBorderBox = styled.div`
   width: ${props => props.width ? props.width : '200px' };
   height: ${props => props.height ? props.height : '30px' };
   line-height: ${props => props.height ? props.height : '30px' };
-  font-size: 15px;
+  font-size: 14px;
   background-image: linear-gradient(to bottom, ${colors.border_blue_active_start} 0%, ${colors.border_blue_active_end} 100%);
   text-align: center;
   vertical-align: middle;
   padding: 3px;
   color: ${colors.text_lightBlue};
   cursor: pointer;
-  display: block;
+  display: inline-block;
   position: relative;
   z-index: 1;
 
@@ -43,11 +43,11 @@ const StyledBorderBox = styled.div`
   &:after {
     background-image: linear-gradient(to bottom, ${colors.border_blue_start} 0%, ${colors.border_blue_end} 100%);
     z-index: -2;
-    transition: opacity .1s;
+    transition: opacity .5s linear;
   }
 
   &:hover {
-    animation: ${rotateBlue} 2s infinite;
+    animation: ${rotateBlue} 2.5s infinite;
   }
 
   &:hover:after {
